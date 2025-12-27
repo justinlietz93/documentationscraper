@@ -29,7 +29,7 @@ async function main(startUrl: string) {
 
 // Set the starting URL for the scraper
 // TODO: Replace this with the actual documentation site URL you want to scrape
-const startUrl = 'https://example.com/docs';
+const startUrl = 'https://ai.google.dev/gemini-api/docs?_gl=1*1q4obdr*_ga*MjAwMzkzNzg5MC4xNzM3MTgwNjQ5*_ga_P1DBVKWT6V*MTczNzg1MzIxMS4zLjAuMTczNzg1MzIxMS42MC4wLjk5NTQyNTQyOQ..';
 
 // Run the main function and catch any unhandled errors
 main(startUrl).catch(console.error);
